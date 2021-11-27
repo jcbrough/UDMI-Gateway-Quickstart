@@ -9,7 +9,7 @@
 7.	Using the ‘Manage’ menu in the main pane create a FIL object named ‘Google Cloud IoT.dlm’ and upload the UDMI Gateway module into it.
 8.	Create a CSV object named ‘Google Cloud IoT Configuration’ and set the ‘Default Value’ to a JSON dictionary that defines the connection to GCP, e.g.
 
-```bash
+```python
     {
        "hostName": "mqtt.googleapis.com",
        "tcpPort": 8883,
